@@ -8,6 +8,7 @@ const LoveForever = () => {
   const items = Array.from({ length: TOTAL }, (_, i) => i + 1);
 
   useEffect(() => {
+    
     // Fase 1 → 2: después de que el corazón se forma + brillo pasa
     const zoomTimer = setTimeout(() => setPhase('zoom'), 3800);
     // Fase 2 → 3: después del zoom dramático
