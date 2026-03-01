@@ -3,7 +3,7 @@ import './coramai.css';
 
 const TOTAL = 100;
 
-const LoveForever = () => {
+const Coramai = () => {
   const [phase, setPhase] = useState('intro'); // 'intro' | 'zoom' | 'ready'
   const items = Array.from({ length: TOTAL }, (_, i) => i + 1);
 
@@ -100,4 +100,4 @@ const LoveForever = () => {
   );
 };
 
-export default LoveForever;
+export default Coramai;
